@@ -1,9 +1,230 @@
 /* General Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     margin: 0;
     padding: 0;
-    background:<img src="https://i.pinimg.com/736x/f0/8c/c4/f08cc419fdaf3b412adceda18332b943.jpg" alt="Planet"> no-repeat center center fixed;
+    background: url('https://i.pinimg.com/736x/f0/8c/c4/f08cc419fdaf3b412adceda18332b943.jpg') no-repeat center center fixed;
+19 minutes ago
+
+styles.css
+    background-size: cover;
+    color: white;
+37 minutes ago
+
+Add files via upload
+    text-align: center;
+}
+
+19 minutes ago
+
+styles.css
+/* Navigation Bar */
+37 minutes ago
+
+Add files via upload
+header {
+19 minutes ago
+
+styles.css
+    background: rgba(30, 0, 60, 0.8);
+37 minutes ago
+
+Add files via upload
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+19 minutes ago
+
+styles.css
+    color: #b19cd9;
+37 minutes ago
+
+Add files via upload
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+19 minutes ago
+
+styles.css
+    color: #e3d8ff;
+37 minutes ago
+
+Add files via upload
+    text-decoration: none;
+    font-weight: bold;
+19 minutes ago
+
+styles.css
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px white;
+37 minutes ago
+
+Add files via upload
+}
+
+19 minutes ago
+
+styles.css
+/* Sections */
+37 minutes ago
+
+Add files via upload
+section {
+    padding: 50px;
+19 minutes ago
+
+styles.css
+    background: rgba(50, 0, 80, 0.7);
+37 minutes ago
+
+Add files via upload
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+19 minutes ago
+
+styles.css
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+37 minutes ago
+
+Add files via upload
+}
+
+19 minutes ago
+
+styles.css
+/* Programs Cards */
+37 minutes ago
+
+Add files via upload
+.program-card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 15px;
+19 minutes ago
+
+styles.css
+    background: rgba(180, 100, 255, 0.3);
+37 minutes ago
+
+Add files via upload
+    border-radius: 8px;
+19 minutes ago
+
+styles.css
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+37 minutes ago
+
+Add files via upload
+}
+
+19 minutes ago
+
+styles.css
+/* Buttons */
+37 minutes ago
+
+Add files via upload
+button {
+19 minutes ago
+
+styles.css
+    background: #b19cd9;
+37 minutes ago
+
+Add files via upload
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+19 minutes ago
+
+styles.css
+    background: #7a5eb8;
+37 minutes ago
+
+Add files via upload
+}
+
+19 minutes ago
+
+styles.css
+/* Footer */
+37 minutes ago
+
+Add files via upload
+footer {
+19 minutes ago
+
+styles.css
+    background: rgba(20, 0, 50, 0.8);
+37 minutes ago
+
+Add files via upload
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+10 minutes ago
+
+Update styles.css
+/* Starry Background */
+@keyframes twinkle {
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+
+.stars {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.2;
+    animation: twinkle 2s infinite;
+}
+/* Button Hover Effects */
+button {
+    background: #b19cd9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+
     background-size: cover;
     color: white;
     text-align: center;
